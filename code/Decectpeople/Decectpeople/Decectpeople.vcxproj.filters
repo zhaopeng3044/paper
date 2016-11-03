@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="handlePicSort">
+      <UniqueIdentifier>{53f77d0c-fe79-46fd-a41d-0067b51722bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functions">
+      <UniqueIdentifier>{67da1e99-338f-4cc3-9cce-b40c3956b6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="train">
+      <UniqueIdentifier>{aaa36f61-3070-4379-99c3-c2d288be576e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="detect">
+      <UniqueIdentifier>{e921efd8-c7ae-4283-a29f-cc550a09043a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timer">
+      <UniqueIdentifier>{322328bd-f306-496c-a9b1-d89af9f04b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="preTreatMent">
+      <UniqueIdentifier>{c5bb0024-dbfc-415f-a73d-addd4135318a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>functions</Filter>
+    </ClInclude>
+    <ClInclude Include="sortPic.h">
+      <Filter>handlePicSort</Filter>
+    </ClInclude>
+    <ClInclude Include="train.h">
+      <Filter>train</Filter>
+    </ClInclude>
+    <ClInclude Include="mySvm.h">
+      <Filter>train</Filter>
+    </ClInclude>
+    <ClInclude Include="detect.h">
+      <Filter>detect</Filter>
+    </ClInclude>
+    <ClInclude Include="ticktimer.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="function.cpp">
+      <Filter>functions</Filter>
+    </ClCompile>
+    <ClCompile Include="sortPic.cpp">
+      <Filter>handlePicSort</Filter>
+    </ClCompile>
+    <ClCompile Include="train.cpp">
+      <Filter>train</Filter>
+    </ClCompile>
+    <ClCompile Include="detect.cpp">
+      <Filter>detect</Filter>
+    </ClCompile>
+    <ClCompile Include="ticktimer.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
